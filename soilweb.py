@@ -38,7 +38,7 @@ from pickle import load
 # The class column in the data represent the target variable----with  value 1 representing correct samples (inliers)
 # and the value 0 representing outliers
 # The data was cleaned, and preprocessed for the modeling part
-df_complete=pd.read_csv("/home/drdc/Documents/drdc/open_projects/soilweb/2_processed/df_complete.csv")
+df_complete=pd.read_csv("~/df_complete.csv")
 
 # the data has the following columns
 # columns=["pH_KCl",
